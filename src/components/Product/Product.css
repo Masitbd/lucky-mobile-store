@@ -2,3 +2,8 @@
  width: 200px;
  height: 150px;
 }
+
+.item-text{
+  line-height: 5px;
+  color:blue;
+}
