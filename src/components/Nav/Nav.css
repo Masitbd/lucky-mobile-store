@@ -1,0 +1,31 @@
+.logo-resize img{
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.display-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: salmon;
+}
+
+.nav-items a{
+  text-decoration: none;
+  padding-left: 20px;
+  color: aliceblue;
+}
+
+.nav-items a:hover{
+  color:blue
+}
+
+@media only screen and (max-width: 600px) {
+  .display-nav{
+    display: flex;
+    flex-direction: column;
+  }
+}
