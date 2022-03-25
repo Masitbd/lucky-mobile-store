@@ -1,3 +1,14 @@
 .cart{
   background-color: burlywood;
 }
+.cart-item-list{
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.trash-button{
+  background-color: burlywood;
+  border: none;
+  padding-left: 20px;
+}
