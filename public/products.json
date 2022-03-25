@@ -1,0 +1,134 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Samsung S22+",
+    "seller": "Samsung",
+    "price": 1299,
+    "stock": 20,
+    "ratings": 4,
+    "img": "https://img.freepik.com/free-psd/android-smartphone-device-mockup_165789-484.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "name": "Samsung A53 5G",
+    "seller": "Samsung",
+    "price": 999,
+    "stock": 40,
+    "ratings": 3,
+    "img": "https://img.freepik.com/free-psd/android-smartphone-device-mockup_165789-466.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "name": "Samsung Node",
+    "seller": "Samsung",
+    "price": 299,
+    "stock": 60,
+    "ratings": 3,
+    "img": "https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-84551.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "name": "Samsung Node Ultra",
+    "seller": "Samsung",
+    "price": 699,
+    "stock": 880,
+    "ratings": 5,
+    "img": "https://img.freepik.com/free-psd/android-smartphone-device-mockup_165789-465.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "name": "Samsung A8",
+    "seller": "Samsung",
+    "price": 799,
+    "stock": 990,
+    "ratings": 5,
+    "img": "https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65749.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "name": "Samsung A6",
+    "seller": "Samsung",
+    "price": 399,
+    "stock": 200,
+    "ratings": 3,
+    "img": "https://img.freepik.com/free-psd/android-smartphone-device-mockup_165789-458.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+    "name": "Samsung A6+",
+    "seller": "Samsung",
+    "price": 359,
+    "stock": 300,
+    "ratings": 4,
+    "img": "https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-81688.jpg?t=st=1648232472~exp=1648233072~hmac=41ef1da2551954a50c2ed968ebc802355dae4596adab8e3ff77d9e394861902c&w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "ac44095f-230e-4502-8816-dea3eaae8320",
+    "name": "Samsung A53",
+    "seller": "Samsung",
+    "price": 799,
+    "stock": 290,
+    "ratings": 3,
+    "img": "https://img.freepik.com/free-psd/full-screen-smartphone-mockup-design_53876-65968.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
+    "name": "Samsung A53s",
+    "seller": "Samsung",
+    "price": 359,
+    "stock": 190,
+    "ratings": 4,
+    "img": "https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-76459.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "b357e19b-4dd9-4fc7-b5c0-9ed5255464ba",
+    "name": "Samsung Galaxy",
+    "seller": "Samsung",
+    "price": 489,
+    "stock": 390,
+    "ratings": 2,
+    "img": "",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "e4220958-06d2-4d50-96fa-0163a563f43d",
+    "name": "Samsung Galaxy Z",
+    "seller": "Samsung",
+    "price": 998,
+    "stock": 300,
+    "ratings": 3,
+    "img": "https://img.freepik.com/free-psd/full-screen-smartphone-mockup-design_53876-65968.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "dbf7ab3f-b383-4d95-8ab7-f55fcf6fa5f2",
+    "name": "Samsung Galaxy Fold",
+    "seller": "Samsung",
+    "price": 479,
+    "stock": 100,
+    "ratings": 5,
+    "img": "https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-76459.jpg?w=740",
+    "shipping": 1,
+    "quantity": 0
+  }
+]
