@@ -10,3 +10,11 @@
   grid-template-columns:repeat(3, 1fr);
   gap: 20px
 }
+
+.cart-container{
+  background-color:darkgrey;
+  margin-left: 20px;
+  height: 500px;
+  position: sticky;
+  top: 0;
+}
