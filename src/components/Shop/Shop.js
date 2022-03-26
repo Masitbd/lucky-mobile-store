@@ -18,7 +18,6 @@ const Shop = () => {
   const handleClick = (product) => {
     const newProduct = [...cart, product];
     setCart(newProduct);
-    console.log(cart);
   };
   return (
     <div className="shop-container">

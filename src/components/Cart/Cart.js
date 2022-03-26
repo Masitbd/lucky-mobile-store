@@ -1,23 +1,30 @@
 import React from "react";
 import "./Cart.css";
-import { FaCartPlus, FaRemoveFormat, FaTrash } from "react-icons/fa";
+import { FaTrash } from "react-icons/fa";
 
 const Cart = ({ cart }) => {
+  const handleSelect = () => {
+    // console.log(list);
+    let item = cart[Math.floor(Math.random() * cart.length)];
+    if (item) {
+      alert(item.name);
+    }
+  };
   return (
     <div className="cart">
       <h3>Added item: {cart.length}</h3>
 
-      {cart.length !== 4 &&
-        cart.map((item) => {
-          return (
-            <div className="cart-item-list">
-              <p key={item.id}>{item.name}</p>
-              <button className="trash-button">
-                <FaTrash />
-              </button>
-            </div>
-          );
-        })}
+      {cart.map((item) => {
+        return (
+          <div className="cart-item-list">
+            <p key={item.id}>{item.name}</p>
+            <button className="trash-button">
+              <FaTrash />
+            </button>
+          </div>
+        );
+      })}
+      <button onClick={handleSelect}>Choose one</button>
     </div>
   );
 };
