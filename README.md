@@ -2,7 +2,7 @@
 
 Lucky mobile store is a mobile store where you can buy mobie phone. You can choose and select phone add to your cart. You can also delete your added phone from cart.
 
-Live link [Lucky-mobile-store](https://github.com/facebook/create-react-app)
+Live link [Lucky-mobile-store](https://lucky-mobile-store.netlify.app/)
 
 ## How react work?
 
