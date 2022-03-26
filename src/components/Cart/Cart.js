@@ -12,9 +12,12 @@ const Cart = ({ cart }) => {
   };
   return (
     <div className="cart">
-      <h3>Added item: {cart.length}</h3>
-
-      {cart.map((item) => {
+      {cart.length < 5 ? (
+        <h3>Added item: {cart.length}</h3>
+      ) : (
+        <h3>Added item: {4}</h3>
+      )}
+      {cart.slice(0, 3).map((item) => {
         return (
           <div className="cart-item-list">
             <p key={item.id}>{item.name}</p>
@@ -24,7 +27,9 @@ const Cart = ({ cart }) => {
           </div>
         );
       })}
-      <button onClick={handleSelect}>Choose one</button>
+      <button className="ramdom-select" onClick={handleSelect}>
+        Choose one
+      </button>
     </div>
   );
 };

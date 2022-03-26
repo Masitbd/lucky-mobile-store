@@ -12,3 +12,9 @@
   border: none;
   padding-left: 20px;
 }
+
+.ramdom-select{
+  width: 100%;
+  background-color:teal;
+  color: wheat;
+}
