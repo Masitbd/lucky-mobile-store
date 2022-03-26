@@ -17,12 +17,17 @@ const Shop = () => {
 
   const handleClick = (product) => {
     const exist = cart.find((c) => c.id === product.id);
-    console.log(exist);
     if (!exist) {
       const newProduct = [...cart, product];
       setCart(newProduct);
     }
   };
+
+  const handleRemove = (id) => {
+    const newCart = cart.filter((item) => item.id !== id);
+    setCart(newCart);
+  };
+
   return (
     <div className="shop-container">
       <div className="products-container">
@@ -35,7 +40,7 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart} />
+        <Cart cart={cart} handleRemove={handleRemove} />
       </div>
     </div>
   );

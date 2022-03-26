@@ -2,14 +2,14 @@ import React from "react";
 import "./Cart.css";
 import { FaTrash } from "react-icons/fa";
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, handleRemove }) => {
   const handleSelect = () => {
-    // console.log(list);
     let item = cart[Math.floor(Math.random() * cart.length)];
     if (item) {
-      alert(item.name);
+      alert(`You are selecting ${item.name}`);
     }
   };
+
   return (
     <div className="cart">
       {cart.length < 5 ? (
@@ -17,11 +17,14 @@ const Cart = ({ cart }) => {
       ) : (
         <h3>Added item: {4}</h3>
       )}
-      {cart.slice(0, 3).map((item) => {
+      {cart.slice(0, 4).map((item) => {
         return (
-          <div className="cart-item-list">
-            <p key={item.id}>{item.name}</p>
-            <button className="trash-button">
+          <div className="cart-item-list" key={item.id}>
+            <p>{item.name}</p>
+            <button
+              onClick={() => handleRemove(item.id)}
+              className="trash-button"
+            >
               <FaTrash />
             </button>
           </div>
