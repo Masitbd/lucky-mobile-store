@@ -16,8 +16,12 @@ const Shop = () => {
   }, []);
 
   const handleClick = (product) => {
-    const newProduct = [...cart, product];
-    setCart(newProduct);
+    const exist = cart.find((c) => c.id === product.id);
+    console.log(exist);
+    if (!exist) {
+      const newProduct = [...cart, product];
+      setCart(newProduct);
+    }
   };
   return (
     <div className="shop-container">
