@@ -1,70 +1,21 @@
 # Luchy mobile store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Lucky mobile store is a mobile store where you can buy mobie phone. You can choose and select phone add to your cart. You can also delete your added phone from cart.
 
-## Available Scripts
+Live link [Lucky-mobile-store](https://github.com/facebook/create-react-app)
 
-In the project directory, you can run:
+## How react work?
 
-### `npm start`
+React use virtual dome and only update the copies of portion what we have change. To change real dom is very exoensive but to do same thing in virtual dom is very easy and efficient. React use something called JSX that is not plain javascript not html it is called syntatic sugar. Jsx make very easy to write nested code.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A react application is make multiple component and each one is responsible for rendering small, reusable pice of html code. A component also maintain sometimes state. Unlike browser dom to create react element is plain javascript object are cheap to create.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Props vs state
 
-### `npm test`
+To pass the information from one component to another component use props. Props is immutable means it is read only and we can not change.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+On the otherhand state passed data with in the component only. State is mutable means we can change the state. State can only use in react functionl component and state is both read and write.
 
-### `npm run build`
+## How use state work?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The state object is store the property value that belongs to the component. when state changes the component is re-renders. State is very similar to props unlike props can not change but state can be change. When react come to render component it will first check the state has changed.
