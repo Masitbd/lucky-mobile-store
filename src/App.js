@@ -5,6 +5,7 @@ import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
 import Shop from "./components/Shop/Shop";
 import Footer from "./components/Footer/Footer";
+import Question from "./Question/Question";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Nav />
       <Header />
       <Shop />
+      <Question />
       <Footer />
     </div>
   );
