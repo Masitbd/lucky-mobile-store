@@ -29,4 +29,20 @@ const getStoresCart = () => {
   return shopingCart;
 };
 
-export { addDb, getStoresCart };
+const removeFromDb = (id) => {
+  const storedCard = localStorage.getItem("shoping-cart");
+  if (storedCard) {
+    const shopingCart = JSON.parse(storedCard);
+
+    for (const id in shopingCart) {
+      delete shopingCart[id];
+      localStorage.setItem("shoping-cart", JSON.stringify(shopingCart));
+    }
+  }
+};
+
+const deleteShopingCart = () => {
+  localStorage.removeItem("shoping-cart");
+};
+
+export { addDb, getStoresCart, removeFromDb, deleteShopingCart };

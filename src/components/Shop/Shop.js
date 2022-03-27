@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { addDb, getStoresCart } from "../../utilities/fakedb";
+import { addDb, getStoresCart, removeFromDb } from "../../utilities/fakedb";
 import Cart from "../Cart/Cart";
 import Product from "../Product/Product";
 import "./Shop.css";
@@ -42,6 +42,7 @@ const Shop = () => {
   const handleRemove = (id) => {
     const newCart = cart.filter((item) => item.id !== id);
     setCart(newCart);
+    removeFromDb(id);
   };
 
   return (
